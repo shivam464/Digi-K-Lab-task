@@ -1,0 +1,52 @@
+.categories {
+  padding: 10px 15px !important;
+}
+.list-group-item:hover {
+  background-color: none !important;
+}
+
+.hovertext {
+  opacity: 0;
+  padding-top: 0.5rem;
+}
+.card {
+  padding: 15px;
+  cursor: pointer;
+  /* padding: 0; */
+  /* border: none !important; */
+  border: 1px solid rgba(250, 250, 250, 0.425) !important;
+  position: relative;
+}
+.card:hover {
+  border: 1px solid rgb(85, 85, 85) !important;
+  box-shadow: 7px 8px 14px 0px rgba(0, 0, 0, 0.58);
+}
+.card-deactive {
+  opacity: 0.5;
+  border: 5px solid rgb(255, 0, 0) !important;
+  /* background-color: white; */
+}
+.card-deactive:hover {
+  
+  border:5px solid red !important;
+  /* opacity: 0.3; */
+  box-shadow: none;
+  /* background-color: white; */
+}
+.card:hover .hovertext {
+  /* display: block; */
+  opacity: 2;
+  cursor: pointer;
+  /* border: 1px solid rgb(85, 85, 85) !important; */
+}
+.more{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    opacity: 19;
+
+}
+
+.activediv {
+  background-color: rgba(27, 218, 170, 0.685) !important;
+}
